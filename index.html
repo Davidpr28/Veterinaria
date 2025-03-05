@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Veterinaria</title>
+  <!-- Bootstrap 5.3.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome 6.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Menú Fijo Superior -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--primary-color);">
+    <div class="container">
+      <a class="navbar-brand" href="#">Clínica Veterinaria</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Inicio -->
+  <header id="inicio" class="pt-5 mt-5">
+    <div class="container text-center">
+      <h1 class="mt-5">🐾𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍𝚘𝚜🐾𝙰🐾𝙽𝚞𝚎𝚜𝚝𝚛𝚊🐾𝙲𝚕í𝚗𝚒𝚌𝚊🐾𝚅𝚎𝚝𝚎𝚛𝚒𝚗𝚊𝚛𝚒𝚊🐾</h1>
+      <p class="lead">𝐂𝐮𝐢𝐝𝐚𝐦𝐨𝐬 𝐚 𝐭𝐮𝐬 𝐦𝐚𝐬𝐜𝐨𝐭𝐚𝐬 𝐜𝐨𝐧 𝐚𝐦𝐨𝐫 𝐲 𝐩𝐫𝐨𝐟𝐞𝐬𝐢𝐨𝐧𝐚𝐥𝐢𝐬𝐦𝐨😁👍.</p>
+      <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee" alt="Banner" class="img-fluid w-100 banner-img">
+      <a href="#servicios" class="btn btn-lg mt-4" style="background-color: var(--secondary-color); color: #fff;">Descubre Más</a>
+    </div>
+  </header>
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="py-5" style="background-color: #4674a1;">
+    <div class="container">
+      <h2 class="text-center mb-4">𝐍𝐮𝐞𝐬𝐭𝐫𝐨 𝐒𝐞𝐫𝐯𝐢𝐜𝐢𝐨</h2>
+      <div class="row">
+        <!-- Card Consulta General -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU9KjESybdiUBv8MDWptvDtYJTts4Nug1mpQ&s" class="card-img-top service-img" alt="Consulta General">
+            <div class="card-body">
+              <i class="fas fa-stethoscope fa-2x" style="color: var(--accent-color);"></i>
+              <h5 class="card-title mt-2">Consulta General</h5>
+              <p class="card-text">Atención médica integral para tus mascotas.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card Cirugías -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="https://statics.memondo.com/p/99/cfs/2014/10/CF_15444_e8141ce79f5b44f2a3667a26f02d2c30_perros_sentildeor_esta_de_verdad_usted_seguro_de_que_quiere_que_sea_yo_quien_opere_a_su_suegra.jpg?cb=9859072" class="card-img-top service-img" alt="Cirugías">
+            <div class="card-body">
+              <i class="fas fa-procedures fa-2x" style="color: var(--accent-color);"></i>
+              <h5 class="card-title mt-2">Cirugías</h5>
+              <p class="card-text">Procedimientos quirúrgicos con alta tecnología.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Card Peluquería -->
+        <div class="col-md-4 mb-4">
+          <div class="card service-card h-100">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUQEhIVFRUVFRUVFRUVFRUXFhUWFRcXFxYXFRcYHSggGBolGxUVITEhJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGhAQGi0fHR0tLSstLS0rLSstLS0rLS0tLS0rLS0tLS0rLS0tLS0tLS0tLSs3LS0tLSstKzMrLS0tLf/AABEIAKgBKwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAIEBQYBBwj/xABCEAABAwIEAwYEBAQCCQUAAAABAAIRAwQFEiExQVFhBhMicYGRMqGxwQdCUtEUI2LwcvEVJDNDRHOSwuEXU4Ki0v/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACcRAAICAQQCAQMFAAAAAAAAAAABAhEDBBIhMUFREwUUYSIyQnGR/9oADAMBAAIRAxEAPwDCdscQ724fGzPCPTf5rOsGnmvem/hjYSS9r3kmTmqOEk/4YUlv4dYaP+HB83vP3XMtRH0dH20vaPAqbU9oXvv/AKfYcf8Ahx6PePuo9f8ADHD3fCx7fKo77kqlnQnpn7PCwE6V6fiv4UvbJtqwd/TVEf8A2b+yx2J9lrygSalu+B+ZgzN92z81cckWZSwyRTBcJSJXCtUzOjuZKUPMukoEJxTCUimEpCQpTmlMK61FjCpSk1TsHwx9xVFJmk6ucfhYwfE53QfsgaRVlINVnjTqJqZbdsUmAMa781SJmo48yZ8hCBaMk5YkHTy5FAETIukKcbWJB3G3XyPlqgVKBRYJEKoYCr3bqbdO4KG4KSjZ/hYf9fH/AC3/APavW76rlEwvI/wrH+vD/lP/AO1ex16AcNVlkXJcSGbshsptvVl0opoADmoVpUl0IQpFuXodTUJpK4XIkrRJHFMgorQmVp4LlMkbrzskUnyWSWobi6dE5lTopFC2e7Zp9lyzin0G1vodbuJaQVDq2+dwYOJj91e0MMcNSQOiO2wY0zEnmvU0+VwhTRUdM5PngZQosogNY0Egb8kYV3nUuKa8JkqJ5ZSfJ6GPBCCpIkG55ifLdOFUHWR66FRZXZTjqJx/JM9LCX4CCsnd4oPeI1OtKxTOh46JLSjMUdhR2OC1iYyQUBNNNKURpVUZcop8TwG2r/7WhTf1LRPodwsfjX4Z2tQE0HOou4CS5nqDr7FejvaolSmjc49FJRl2j59xrsheW2Yvouc0f7xnibHMxqPULPOK+nHOGy8z/EDsUXk3VqzXepSaN/62DnzHtrvtjz3wzDLpGluieWZ1wuTqlPKYOiESuk4ggKMKR4iE2yBztHMrQ32K06cNJAIAJAa3XpyUt0Uo2U9C3c4hjQS5xAaBuSTAC1WJ0jaW/wDBUYdWqAG5eCJA4U28Y14dea03Zm3pPBeWNbUDA4GPE3ODEjgSJ90Sy7OsJLszsxJzSNdeOonfr7qN/gv46VmR7PYPWG+Uf0yC6OZA4LVVOy4cA9rcj5BD2gRIPQwdQr2zs2s8BBO5AcZHpwmVJoXESIAaNfnCHNgoGNxHsu81S9rRHBoiATqQI4SSqyt2cdBbBBPHiP7j5L0elctIDh5iee6q7q6l0cNT1gHSfRLcx7aPP63Yao8gMEAcSJJ8zOvHaPJQ7/sJUYNNDsS6Gg84G69Rtr6DB8vKNPsm1K7apmNATPQE/wBn1TUmJxMH+GeEll5ULiDlpcDO5H7L1OpSaQYULCbBlMuqsbkOo1dIcOOYem/RXwr+Ge7nygqXyF0UtK2gEyqeyb4z5q/p3AqOLQC1RP8ARdRzi2jAdI8ThLWidSeek6Kf2gnuJNhYurOyt0A3PJXdPs7THxOcfYBWFhaNosDRqeJ4k80+rUScjWMCNTwaiPyA+cn6qQ2ypjZjR6BOpVUdyjhlO0B7kch7LhanFyaSikUrGuCjVUao5R6imRrBEZxUd9RGruhV9V655Ojuxxskh64a4Ve+ug53KHJm3xLyT2PlOJLdVFFfKnG8a4RMeaENx5JzblS6dVUlCrpBU2ncDZaRn7MZ414LVlRFa5VbKsFH/ioWikc0sT8FozVddRlQra94EKxY4HZaqmc04ygyvubLiFRuvm06ndvkHhP25rXlZrtTgxrslhy1GHMw/UHoVE4Vyjp0uaLltydMzXaXsLa3hNUTTqEauZEOPAvaRr56FeV4x2PuqFYUO7NUnVppBzgRMSdPD6r2TAX1QwuuIpAaamTppoFmu3Pb7+GDqFuWtqGAHOhzxJHjI2bpMTvK0xTldGeswQjbXNeTFDsLcU2d7dVKNqyN6r/F6MbMnpKPg9nY02vuXd5XZSIAe5gYypU4NpUySXH/ABRwVThLDeXDXXNV1VzjsXEk+c/C32Wta11zW7lgptoU4DSYmR8TwBqOIHouhs85RNhhEPaX5ImJBygnYjYAHfnzU247qiM5npL3f5KG0igyXOjT5cyvLcRuH31WpWfULWNLhTpZnAlrTE6bk69ND6wo2y7pcnpB7R6QQN4aRsZ+XJRLrGQ5sAgD5nj8tlj+6pseWWj3PpABzu+8JMNzPAEkAjgeit8PoseJmJ0/Y/3zVNUC5NNZNJpdZgepn7odekS8nloPfQJtvcEDINYLfXn5pPqyYA5k+Z094AUlEC8q5ZE76/356J1ni9OmXBx4hw6wBA9TBTMSph+gInWQTHlEcuSzBtv5sZs7mtLzya1pgkjjBIAHE+6aQmb+xxYVBDwWg7eXCVXXj6tB+e2zb6gO3nnP1OiwuK2NcVyKN53rgzvczHANaIkthwEOA/KNStN2LxZ9ZrqNYkVKZhxBHikSDpom4tchFpmn7JYu65qVBVbkq04D27aO+F0eh9pW/oUmsaI8z1Xn1hijqILGMB1kkzM9SN9lLue2dOk3M/gNhJ5DT1K4nkk5NSj/AEdq0qrdFr/TX3F6AZJVZdYsfy03OjkPpzWExD8UaEeChUcR+otaPkSVB/8AVW5eYpWObyzu+jVooOXboTnCC4Vs9Gs+0DHmC1zDI0eC0nWNj5rRTK8y7L9o728uW0bizFCmWOeHOY8OdlIENzARvuvTKfhCFDa6siUlJJpUccEJzkWpUlRi5NhFHHOQaj10lR6r1lJnRGJFuaklV93VhEuazoORhd5LOOrFzyHy0/1AgLPY3ydKywiqssjcALgunHUNJHQFU9enVBkeIdFo7HEmim0Oa4GNRCuOH2c+TW06ijjiqvGMUpUG56r2sHXj5DiV5tjHb26qSKUUhzHid7nT5LG3t1UquzVHue7m4kn57LXHpX/InL9QXUEeiYh+JjWmKNIvE6l5ygjpxW47IY2y9oCszQglr2EyWkfUEQfVfPcLbfhVXuGXUUmOfScMtaNGt4tdPMcuRK1yaeO3js5sWrnv/V0z3BriERhlRmVJRqK4KaPVtNWWFBSg8jZV+dzRmHBO/wBK0iJzDqJ1W8WjmlBt8KwtTFi3fVPt70PWfvgHyWHyQsJuDME6jcHceYRuZs9PCuOGXeJYcyoQ4iYmNTGvGNpXmvbnslZsfUvrqtUDHNDWtbAIqAQ0DQyIB0XqDa4hZP8AEaypVrOp3hIbTHeyObNfpI9U4vbKzCcXLG4PweU0LynbUGFgYyrWbo4tJLaXFx/xER11Vn2Qvqmdzv5bwRocvwjiQDqOCw7781a4qOAEkANiWtaIDWAHgBAXouEUmNblLQD0blPrBIXa1R5S5Lm+uO9bE8CI2kkkACBA9YWRvbRmYtcHMPNsET/fALX21NrWy4SXGQNSSOHhH10QThzKry/drR5NBnYclPRSK3BbFgbma12h1e4zqRERtz6677KxbQOYk6cOUKTe12tAaNh+UcescEGgM/GJ3JSYyxtrYEAAp1a2LRun211SpiCems/ZJ9wyoMjXDU7nTf5qeSuCluqRP5/bQqHWpeAnZ0FhO+jiP/y32VlXtyNNPXkgutzMx6DVVZLMo/Cqwl7XsImSA6HCDoSHR8pVrgtPufHp4jDiDM/p9tVNrYKx5+HMOkyD1hWOHYO1rO71aecO9NR9E91iokOrF35w0/P2UyxNlUPdXFMVHTo4yW6/ljh5qguWOpuylskfC6RqOY/ZR33EajQjQbCTySoFJnpVrgNowZm29Fo3nK36pXuLW9uwv8M7Na0ak+i8quu0r+6yOc5xbMNzGRAJdI66oWG3NzUIik5nWo7TzEtlS3RcIW6PWOyjXVZvKnxPlreTWA7D1HyCvbm5AVHhF0KdFlOfhaBI4kDU+6j4niIAJJ0Hz6DqufeejHTu+ekT7vGw3QblTLB8tnidSshhdp3j+9qbnYfpbyH3Wsp3dOk3UgJLvk0yQSjUUHqKBc1BryCc657wZm7cFme1mJd0xtNpgvmT/SN/ckfNRJ2KMGl+SmrdoMQa92Si0szHKM2uWdJ6wlX7U3ZbDrQE+Y/ZR6OI/wBSsKF5PEey1WoilRy/Y5JOzI1MaxIVC9tJgZ+iD9U49rcQGn8O33K177kch7KIXt6KHqV6Nl9OyeTyCuoD91Y3DVCfTXpHiovOxfZSriFXK2W0mwalTkP0t5uPy38/Q8a7VWmF0jZ2Qa+q0QSNWMPEvd+Z3TfmsXddrCy2bZWTXUKIH8x5I72s4/EXEfCDyHRZjJofJIdmy7F9u61O5/1qq59KqTnLtchOzhybsCOXkvZKdw3IX03BwiRBBBHQr5khTrDGLih/sqz2DkDLf+k6fJYZMKlyjswar41UuUfRLMeBaQQqe4tA+Xc15vhv4ivbAr0Q8cXMOV3nB0PuFPxP8QqTWtdbhznEiWvBaAOPr5LJ4ZHYtVjrujc2BLDEkHkePkj3rSSKjDDh8+h5hYOn+I9u9v8AMpVGuHBuVw9DI+abh/4jaxXplrCTle3VwHDM3ieZHsk8U/RS1WP2ek2N8HjkR8Q5eXMKg/EnEBTsKuurwKYH+MwflJ9Fgu0/bcEhtm5wI1NWCD5NB+crIYni9e4M1qr6kbZjoPIbBXDA7TZnm1sdriuW/JN7OsD3ZXARuZjpz39ito28yHYRw11I8uKwOBOis3WPf7Lc3OFNqtAdx4idQt5dnmItGXxMARJidiBxEjjz15K4FwcogyRtAjXp16rL0Lc0iN48+XLqtjgloSGuI8REgfpB4nqd/JRJ0XFFZWsqj9SYA1iQPlxVRjOLG0YdJdGi9LqYY3IdNYXnnavDaZJ74Et5tMObz15baJRkmU40ijwntS+q0yAI+22vmUS/7W93lJbmPTSYWbxB1OkSyiIEzMzKJZ0KNchtUlsfmHDmtqMjcWGKm6Y0NlpGvKAeq0Fjh1Smcxk+XXdUfZbD2NyimXOaPzO3d/4XpFvRADSsMkqZ0Y42ijo0cxMDK8CZOgcP6h91Au6wzhrmw7mHGD5eq0WKUT8TdCBI+6y97UzCYB0059decf3oiLsmaorbm6OxJyzoeIPIjgfr9YV/bywxEa9Tr03UXEX1alN2UguAO+5AOonj/mqS0q1Q4B7HxoB8RbPTL9FbM4oNhuF1alcM8bnydXuhrgDAOuu0Lf3OAXLQMga6ANA4SPdW3ZDDXMpl9RoDnREbhv8AmtBlUNWjSOVwlaMVh9zU1pva5r5+Egz6Dipgsa7yCWGBsCQPUglatrV3KstlHQ9bJozf8FcRtHkR+6D/AANUGS0n2P3WqLUwsVbCVq5lTTuKwbkywOfFVeM4cKzsz2zADR5BaY0whuoBJY0KWqkzA1uzo/K5wQhg9Ru1T3C3r7RCNiOSTwxfguOrmvJiTYVeLwh/wDv/AHPktu7DW8kz/RreSn4I+jT77J7PA7lqj5FLqtQci7zybBNankeEp7WJtQeE+iBkYoLijOCCQmAwridlXCEDC2lNrngPcGt3cTyGpA5k7Qu3txndIENGjRyHXqgLiAEuLqSAD2NYMeHOEiYPODvHVeoYXVz0xBBicpBkFvCf3XlC23ZG7cwBhgtdq14OmkmHcipkho1tGk1zhmblDd9fUx5wtfhr2tA4DeeOsQPXksjQuvEJHw7cNVe1KuWm2Nzr+5XPlZ04o2aevftIjTzWbxAU3zmIcNR7bqoxK+MAA68IlQKxrgDwwANJO53JPSfoFnFmrXBHxjstb1AMoDXeI+HeAJH3R8H7KWzQ0nV06knYzA024T6qor3NdhzwCM4JOaTlh0zG3L1Q6GLPkHX4nudGsB4Ag/8ATPsujc6MHFWejWVo2m7wwI3HAj91oaNwC1eWvxiuDIBzNMafmA4xz5+6usNx4u30K58is6sbVUbG4rDSD0WWx6n3VSW8YcPSS7T+91No3JcRG2/7oXaNoqMBOhAkEmBrwJ4cE8b5M8yMdWo+IPa7KJPh/T68Rr81pOytekXNolrSSdQ8bxxaRxWMbdkuDX0yDtGYjbTYz/cL0Xsnh7Q0VCyNNOfqt2cvRrKFMAQBATXJ1A6Jr0GZ1iehNK7nSodjimOXcyY4oARTYSlJqBiATgUi1cATEdIXMqclCBWfOr6aYaKmuCY5q2M0RG0oOuyV7QhuhkIrwhVBogpIr3jRBLFNcxAe1AEZzUxwR3hBcgYMricU1AxLiSSACse0fln/AOW/yWowjEczYPo0AQPUCVlaNJz3BrQS4mABqSVvOz/Z80YLodUO/wClnQcz1QwL7BsPqvLXOIyzx+LTkN4V3dVNCxsAiATyH7rPtxF1LwBwjUGIkyPzEawJ9Fe2YBa1syQBJ5mN1xZkzuwNNUiThtkxsuOpPE7hWf8ADNcNtFGoRz81Kp152XPbOtJFPfYAycwEa8PoolvgTRJI1JMn+/70Wr7uQolwADHLf7K1lfRm8Ueyt/0exoOg9lVVrPK8FvMStBzVXfu1JRuYNJdEnCqojX09VYYtldTL2gHKIcObeIjisnQuHB7idhr8tFHqdpXOaQzwkaZp0cORA4q8ab5MsslVEK3pHvIkFhIABE5AT+UGSPKV63Ysa2m2mNmtAC8poUzPeN1J3299dF6TYyKbZ0IaOX2JXSjimXVs3QrlQLuHulpRKjUEEUhNJRnBCcEDECkkEigDhTmBcXWlABYXMqQKIExA8q5CNC5lQB89vCYQivQytSAD2obmo7kx6GgRGcxRXhTKhUVyRRGeEB4Uioo7mqgAlNRC1LIkANFt7d9RwYxpc5xgAcU6hQc9wYxpc5xgAbkr0vs5gDbZmYw6q4eJ3Ifpb068UDIuBYE21bJAfWcNTwaOTenM8VzEMSId3FI5qjvjdwaPsFztHjXdnuaXiqu08lDsqLbdhe85nnUniXH7IEWNWgKdLLu50TzJJESTtqmdnO0GVzmOOaSRJ5jf7aJtEk+J4JOXNA34bcin2GFU6ZdVk+MkimS0meJPIabb8dYgzKKZcJtdGwt8QpvByHbf5D6lT7O4AXnVxc5SRTka+LQxPAweC0mC4y2qW0jGcz68ft81yzw+jsxZ/ZqXX2mmp58FCddDfkfd3MoFvXac408Mka6RzHRQKlywFocSJcBHyA04ypjjKlmLtzob5j6qsum807EMYp5RqNw0R8lT4tjFKrSDWPy6b8CY1aSOhOvSddk/ibJeZIh4jetFN8bwT7Au+yocPof7xpJkyWkI4tnfE0k0/hJnMZI18iQCfQ8ipbGta1uUSCd+QHEreEKVHNOdsuba20nYcP75K/wXFsgFGqfDHhcfy9D0+iorV5LR5/JFcQSVaRm3Z6bhY8CLVKyPZrHBR/k1fgJ8Lv0zwP8AT9Fq6pkSDIOoI2I5hSxAXuQ8yVQoQKQwoK7CY0ogQIS61qc1qKxiYDWtRAEQMTg1OhAwF3KihidkRQHzk9Cc5Kq9CzLQQnOQark9yDVKZPkC96A8ohCFUSKQJzkwwuPQajkDCJzWSQAJJ0A5qMHFehdkezvdgV6w/mHVrT/uweP+L6IAl9kuzwt297UH81w/6ByHXmUftNjot6ZyxmOgCkX94GtJJ0Gy8/uapua0nadugQBIwwETcVdXvmPJWdtbuqO7yqIa34W/cqZaWu2minV6YkQdANuvVAmAoUSSXRqdgOmv2Qe7MEsJI133B1kDpIU22JzTyBj6LrbUgeEyeIOk6ySEDKNznNYSDqTGomPFE+yBd32XK5vxNg5uPhMj5hW99XYwDMI15cRw91W3lKlEgjkdUhhrfGnh0yXN0Dm6RJ3MHbc7KBi+OeJ7G6Q/cE+GNIE6/wCSr6gAzODtdIhCq02PfUJBzd471gpUPcTqOLHKRmJhwOuo1Gv0RLerxjQnj00P1UTDw1ry3LwH1MfdTpgwQI+h4H2JCKCy4wi4Y3PSqND2PGV7HaB4BmCRq0jRzXDUEA8wYOL1qdm0Blc1y95IYWOY5lKB8bj4S8nTwyNCZ4KpvqpY4EEkiD6HQhGxe0Nagyo0y6nIOv5SfsfqnQrNZhGIMqsmk6RxGzm+Y+6n27I3XmmGWdxTIq0TDh13HIg6ELX4Nj3eHuqre7q8tmv6s69PZAjRvOit+zuN91/LqH+WfXIeY6c1nhUXaR1SoD0p5B1GoOxCEVn+zOJQe4edD/syeB/T5HgtAQs6oY+mpDQgUlJamARgR2hCYjNTEPhILi61UI7KfKCUpQM+bqjUMhKrWQDVCokdKBcOTnVgOKg17lMEhVKvJNLlEfUMpNekOg7ggPRO8C13Y/s+HRc1Wy3em0/mP6iOXL3QMN2S7M5Yua7fFvTYfy8nO/q5Dh57aa5rQEa4qxKzWK3mUGTqUAVXaHES45Bt9VzALGPGRqVDsqBqOzO2WkoDKBogCxohjRrLugMCfNR6lST9lwOXYSAdZ/EfJTiNIieijWbQSVJY/UoAq7y3L3AumGmQJKjXdkHjhHkJ9VevgiCFDqtA2TEZm5tA0QOOmgA+irLIlr3MdrrIPHVaC5pySVT4hRIcHBAL0Mumlrw9s6iD9lZW9NtRoJ34hR2kOYZ3RsNZBhIZGu6UuVng40LDsQR7oNenJ9VJsxBTECtpaS0j4dPZdxiw7yiXN+NnjbG+mpiP70CnX1OCH/qGvmP/AAn2tWEAQOz2PNrAU3mKvyf1HXotC12i80xuz7iu4NkCczD0OojyMj0V/gHaZsCnXMcO858s37pFGzzGeRGoW0wPEO+p+L426O68neqxGeYIMiNCOIU/Cr3uajX8Nnjm0/tv6JNCN4wI7FHoPDgHNIIIkEbEKQ0qADsRQg0yihUA+UmuXFxAHXJSuFIFMD5erEqK95SSVk+QD3lBKSSRSOEJpXUkDNF2Q7P/AMQ/vKg/ksOv9bv0jpzXo9Su1uwAA0AGwhdSQSymvbrckrKX9UvckkgCywy0gSVYlqSSQxU94RiNYSSTAPQbBKIQkkkBwqNXSSTBlZWbqo13QDgkkgCHbnJpE6g+0/up9s3WUkkAGq0ddESjTgk+i6kgkk1GZmRy1HoolMJJIGQe1Nj3lEVB8VPU9WHf20PusSkkgou8B7QVKHgPjpz8M6t55T9tlvcOxCnWbmpukcRs5vQjgkkgRtexlWW1Kc/CQ4eTpBj1atI1cSUPsYWmUcFdSQIRKSSSYCSXUkAf/9k=" class="card-img-top service-img" alt="Peluquería">
+            <div class="card-body">
+              <i class="fas fa-cut fa-2x" style="color: var(--accent-color);"></i>
+              <h5 class="card-title mt-2">Peluquería</h5>
+              <p class="card-text">Estilismo y cuidado personal para tu mascota.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Equipo -->
+  <section id="equipo" class="py-5" style="background-color: #4c9ae7;">
+    <div class="container">
+      <h2 class="text-center mb-4">𝐍𝐮𝐞𝐬𝐭𝐫𝐨 𝐄𝐪𝐮𝐢𝐩𝐨</h2>
+      <div class="row">
+        <!-- Perfil 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card team-card text-center h-100">
+            <img src="https://randomuser.me/api/portraits/women/45.jpg" class="card-img-top rounded-circle mx-auto mt-3 team-img" alt="Dra. Ana López">
+            <div class="card-body">
+              <h5 class="card-title">Dra. Ana López</h5>
+              <p class="card-text"><strong>Especialidad:</strong> Medicina General</p>
+              <p class="card-text">Con pasión y dedicación, cuida de la salud de tus mascotas.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Perfil 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card team-card text-center h-100">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" class="card-img-top rounded-circle mx-auto mt-3 team-img" alt="Dr. Carlos Méndez">
+            <div class="card-body">
+              <h5 class="card-title">Dr. Carlos Méndez</h5>
+              <p class="card-text"><strong>Especialidad:</strong> Cirugía</p>
+              <p class="card-text">Experto en procedimientos quirúrgicos y cuidados postoperatorios.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Perfil 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card team-card text-center h-100">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" class="card-img-top rounded-circle mx-auto mt-3 team-img" alt="Dra. Laura Gómez">
+            <div class="card-body">
+              <h5 class="card-title">Dra. Laura Gómez</h5>
+              <p class="card-text"><strong>Especialidad:</strong> Dermatología</p>
+              <p class="card-text">Especialista en el cuidado y tratamiento de pieles sensibles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="py-5" style="background-color: #4582be;">
+    <div class="container">
+      <h2 class="text-center mb-4">𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐨</h2>
+      <div class="row">
+        <!-- Tarjeta de Contacto -->
+        <div class="col-md-6 mb-4">
+          <div class="card contact-card h-10">
+            <div class="card-body text-center">
+              <h3 class="card-title">+1-829-871-2321</h3>
+              <a href="https://wa.me/xxxxxxxxxxxx" class="btn btn-lg" style="background-color: var(--secondary-color); color: #dadbda;">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Formulario de Contacto -->
+        <div class="col-md-6 mb-4">
+          <div class="card contact-card h-100">
+            <div class="card-body">
+              <form id="contactForm" novalidate>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg w-100" style="background-color: var(--accent-color); color: #fff;">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Confirmación -->
+  <div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: var(--secondary-color); color: #fff;">
+          <h5 class="modal-title" id="confirmModalLabel">¡Éxito!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          ¡Gracias por contactarnos! 😺📧
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" style="background-color: var(--accent-color); color: #fff;" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-4" style="background-color: var(--primary-color); color: #fff;">
+    <div class="container text-center">
+      <div class="mb-3">
+        <a href="#" class="me-3" style="color: #fff;"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" class="me-3" style="color: #fff;"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" class="me-3" style="color: #fff;"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" class="me-3" style="color: #fff;"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="#" style="color: #fff;"><i class="fab fa-youtube fa-lg"></i></a>
+      </div>
+      <p>Dirección: Shibuya, Tokio, Japón</p>
+      <p>Horarios: Lunes a Viernes 9:00-18:00</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS Personalizado -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
